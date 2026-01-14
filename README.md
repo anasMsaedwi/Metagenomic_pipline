@@ -1,4 +1,4 @@
-# Metagenomic_pipline
+# Meta_pipli
 
 # 🧬 Metagenomic Profiling Pipeline: From Reads to MAGs
 
@@ -33,3 +33,35 @@ graph TD
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style F fill:#bbf,stroke:#333,stroke-width:2px
     style I fill:#bfb,stroke:#333,stroke-width:2px
+```
+# Metagenomics Pipeline
+
+A comprehensive pipeline for metagenomic analysis from raw sequencing data to genome assembly, binning, and annotation.
+
+## 🛠 Technologies & Dependencies
+
+This pipeline relies on the following open-source tools, managed via Conda:
+
+| Tool | Version | Purpose |
+|------|---------|---------|
+| fastp | 0.23.4 | Ultra-fast all-in-one FASTQ preprocessor |
+| MEGAHIT | 1.2.9 | Ultra-fast single-node solution for large assembly |
+| Bowtie2 | 2.5.1 | Fast and sensitive read alignment |
+| MetaBAT2 | 2.15 | Adaptive reconstruction of single genomes from complex microbial communities |
+| Prokka | 1.14.6 | Rapid prokaryotic genome annotation |
+| QUAST | 5.2.0 | Quality Assessment Tool for Genome Assemblies |
+
+## ⚙️ Installation & Setup
+
+To ensure reproducibility, an `environment.yml` file is provided to recreate the exact software environment.
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/AnasSaadawi/Metagenomics-Pipeline.git
+cd Metagenomics-Pipeline
+
+# 2. Create Conda environment
+conda env create -f environment.yml
+
+# 3. Activate the environment
+conda activate meta_pipeline
