@@ -34,7 +34,6 @@ graph TD
     style F fill:#bbf,stroke:#333,stroke-width:2px
     style I fill:#bfb,stroke:#333,stroke-width:2px
 ```
-# Metagenomics Pipeline
 
 # 🧬 The Metagenomics Handbook: A Practical Pipeline
 
