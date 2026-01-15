@@ -1,3 +1,29 @@
+# Ignore Data Files (Large files)
+*.fastq
+*.fastq.gz
+*.fa
+*.fasta
+*.bam
+*.sam
+
+# Ignore Results folders (Results should be reproducible, not uploaded)
+results/
+clean_data/
+assembly_result/
+mapping/
+bins/
+annotation/
+
+# Keep these folders but ignore contents
+data/*
+!data/.gitkeep
+
+# System files
+.DS_Store
+.ipynb_checkpoints
+
+##############################33
+
 # Local .terraform directories
 .terraform/
 
