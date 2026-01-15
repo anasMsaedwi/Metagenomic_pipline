@@ -36,6 +36,36 @@ graph TD
 ```
 # Metagenomics Pipeline
 
+# 🧬 The Metagenomics Handbook: A Practical Pipeline
+
+![Purpose](https://img.shields.io/badge/Purpose-Education_%26_Open_Science-green)
+![Level](https://img.shields.io/badge/Level-Intermediate_%7C_Advanced-orange)
+![Community](https://img.shields.io/badge/Share-Knowledge-blue)
+
+## 🌟 Vision
+This project is built **for the community**. Its goal is to demystify **Shotgun Metagenomics** analysis by providing a transparent, reproducible, and easy-to-understand pipeline. Whether you are a student, a researcher, or a hobbyist, this repository serves as a practical guide to recovering bacterial genomes from environmental samples.
+
+## 🎯 What Will You Learn?
+By exploring this repository, you will understand:
+1.  **The "Why":** Why we filter reads, why we assemble, and why we bin.
+2.  **The "How":** How to chain industry-standard tools (MEGAHIT, MetaBAT2, Prokka) into a seamless workflow.
+3.  **The Result:** How to interpret biological data (Taxonomy & Function) from raw DNA code.
+
+---
+
+## 🏗️ Pipeline Architecture
+The analysis is broken down into modular steps. Each step is a standalone script in the `scripts/` folder, allowing you to study them individually.
+
+```mermaid
+graph LR
+    Input(Raw DNA) --> QC(Cleaning)
+    QC --> Assembly(Building Contigs)
+    QC --> Mapping(Calculating Abundance)
+    Assembly --> Mapping
+    Mapping --> Binning(Recovering Genomes)
+    Binning --> Annotation(Finding Genes)
+    Binning --> Taxonomy(Naming Bacteria)
+```
 A comprehensive pipeline for metagenomic analysis from raw sequencing data to genome assembly, binning, and annotation.
 
 ## 🛠 Technologies & Dependencies
