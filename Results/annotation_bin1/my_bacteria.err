@@ -1,0 +1,1202 @@
+Discrepancy Report Results
+
+Summary
+FATAL: MISSING_PROTEIN_ID:224 proteins have invalid IDs.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:CDS: 224 present
+DISC_FEATURE_COUNT:tRNA: 1 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:225 features have inconsistent gene locations.
+SUSPECT_PRODUCT_NAMES:2 product_names contain suspect phrase or characters
+	May contain database identifier more appropriate in note; remove from product name
+		1 features contains three or more numbers together that may be identifiers more appropriate in note
+	FATAL: Remove organism from product name
+		1 features contains 'staphylococcal'
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:3 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:225 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:MISSING_PROTEIN_ID::224 proteins have invalid IDs.
+annotation_bin1/my_bacteria:k141_5323_1 (length 70)
+annotation_bin1/my_bacteria:k141_5323_2 (length 42)
+annotation_bin1/my_bacteria:k141_5323_3 (length 446)
+annotation_bin1/my_bacteria:k141_5323_4 (length 122)
+annotation_bin1/my_bacteria:k141_5323_5 (length 412)
+annotation_bin1/my_bacteria:k141_5323_6 (length 412)
+annotation_bin1/my_bacteria:k141_5323_7 (length 158)
+annotation_bin1/my_bacteria:k141_5323_8 (length 77)
+annotation_bin1/my_bacteria:k141_5323_9 (length 311)
+annotation_bin1/my_bacteria:k141_5323_10 (length 305)
+annotation_bin1/my_bacteria:k141_5323_11 (length 557)
+annotation_bin1/my_bacteria:k141_5323_12 (length 498)
+annotation_bin1/my_bacteria:k141_5323_13 (length 272)
+annotation_bin1/my_bacteria:k141_5323_14 (length 177)
+annotation_bin1/my_bacteria:k141_5323_15 (length 669)
+annotation_bin1/my_bacteria:k141_5323_16 (length 872)
+annotation_bin1/my_bacteria:k141_5323_17 (length 163)
+annotation_bin1/my_bacteria:k141_5323_18 (length 121)
+annotation_bin1/my_bacteria:k141_5323_19 (length 514)
+annotation_bin1/my_bacteria:k141_5323_20 (length 97)
+annotation_bin1/my_bacteria:k141_5323_21 (length 288)
+annotation_bin1/my_bacteria:k141_5323_22 (length 586)
+annotation_bin1/my_bacteria:k141_5323_23 (length 265)
+annotation_bin1/my_bacteria:k141_5323_24 (length 71)
+annotation_bin1/my_bacteria:k141_5323_25 (length 519)
+annotation_bin1/my_bacteria:k141_5323_26 (length 347)
+annotation_bin1/my_bacteria:k141_5323_27 (length 383)
+annotation_bin1/my_bacteria:k141_5323_28 (length 192)
+annotation_bin1/my_bacteria:k141_5323_29 (length 130)
+annotation_bin1/my_bacteria:k141_5323_30 (length 275)
+annotation_bin1/my_bacteria:k141_5323_31 (length 234)
+annotation_bin1/my_bacteria:k141_5323_32 (length 428)
+annotation_bin1/my_bacteria:k141_5323_33 (length 421)
+annotation_bin1/my_bacteria:k141_5323_34 (length 237)
+annotation_bin1/my_bacteria:k141_5323_35 (length 789)
+annotation_bin1/my_bacteria:k141_5323_36 (length 557)
+annotation_bin1/my_bacteria:k141_5323_37 (length 698)
+annotation_bin1/my_bacteria:k141_5323_38 (length 89)
+annotation_bin1/my_bacteria:k141_5323_39 (length 323)
+annotation_bin1/my_bacteria:k141_5323_40 (length 305)
+annotation_bin1/my_bacteria:k141_5323_41 (length 116)
+annotation_bin1/my_bacteria:k141_5323_42 (length 705)
+annotation_bin1/my_bacteria:k141_5323_43 (length 105)
+annotation_bin1/my_bacteria:k141_5323_44 (length 94)
+annotation_bin1/my_bacteria:k141_5323_45 (length 391)
+annotation_bin1/my_bacteria:k141_5323_46 (length 155)
+annotation_bin1/my_bacteria:k141_5323_47 (length 1438)
+annotation_bin1/my_bacteria:k141_5323_48 (length 567)
+annotation_bin1/my_bacteria:k141_5323_49 (length 428)
+annotation_bin1/my_bacteria:k141_5323_50 (length 260)
+annotation_bin1/my_bacteria:k141_5323_51 (length 256)
+annotation_bin1/my_bacteria:k141_5323_52 (length 184)
+annotation_bin1/my_bacteria:k141_5323_53 (length 240)
+annotation_bin1/my_bacteria:k141_5323_54 (length 293)
+annotation_bin1/my_bacteria:k141_5323_55 (length 255)
+annotation_bin1/my_bacteria:k141_5323_56 (length 257)
+annotation_bin1/my_bacteria:k141_5323_57 (length 467)
+annotation_bin1/my_bacteria:k141_5323_58 (length 181)
+annotation_bin1/my_bacteria:k141_5323_59 (length 298)
+annotation_bin1/my_bacteria:k141_5323_60 (length 435)
+annotation_bin1/my_bacteria:k141_5323_61 (length 691)
+annotation_bin1/my_bacteria:k141_5323_62 (length 246)
+annotation_bin1/my_bacteria:k141_5323_63 (length 414)
+annotation_bin1/my_bacteria:k141_5323_64 (length 372)
+annotation_bin1/my_bacteria:k141_5323_65 (length 302)
+annotation_bin1/my_bacteria:k141_5323_66 (length 388)
+annotation_bin1/my_bacteria:k141_5323_67 (length 255)
+annotation_bin1/my_bacteria:k141_5323_68 (length 294)
+annotation_bin1/my_bacteria:k141_5323_69 (length 868)
+annotation_bin1/my_bacteria:k141_5323_70 (length 116)
+annotation_bin1/my_bacteria:k141_5323_71 (length 245)
+annotation_bin1/my_bacteria:k141_5323_72 (length 167)
+annotation_bin1/my_bacteria:k141_5323_73 (length 91)
+annotation_bin1/my_bacteria:k141_5323_74 (length 455)
+annotation_bin1/my_bacteria:k141_5323_75 (length 110)
+annotation_bin1/my_bacteria:k141_5323_76 (length 416)
+annotation_bin1/my_bacteria:k141_5323_77 (length 1188)
+annotation_bin1/my_bacteria:k141_5323_78 (length 243)
+annotation_bin1/my_bacteria:k141_5323_79 (length 77)
+annotation_bin1/my_bacteria:k141_5323_80 (length 244)
+annotation_bin1/my_bacteria:k141_5323_81 (length 308)
+annotation_bin1/my_bacteria:k141_5323_82 (length 328)
+annotation_bin1/my_bacteria:k141_5323_83 (length 185)
+annotation_bin1/my_bacteria:k141_5323_84 (length 686)
+annotation_bin1/my_bacteria:k141_5323_85 (length 548)
+annotation_bin1/my_bacteria:k141_5323_86 (length 124)
+annotation_bin1/my_bacteria:k141_5323_87 (length 62)
+annotation_bin1/my_bacteria:k141_5323_88 (length 213)
+annotation_bin1/my_bacteria:k141_5323_89 (length 214)
+annotation_bin1/my_bacteria:k141_5323_90 (length 291)
+annotation_bin1/my_bacteria:k141_5323_91 (length 664)
+annotation_bin1/my_bacteria:k141_5323_92 (length 247)
+annotation_bin1/my_bacteria:k141_5323_93 (length 364)
+annotation_bin1/my_bacteria:k141_5323_94 (length 435)
+annotation_bin1/my_bacteria:k141_5323_95 (length 311)
+annotation_bin1/my_bacteria:k141_5323_96 (length 162)
+annotation_bin1/my_bacteria:k141_5323_97 (length 92)
+annotation_bin1/my_bacteria:k141_5323_98 (length 317)
+annotation_bin1/my_bacteria:k141_5323_99 (length 802)
+annotation_bin1/my_bacteria:k141_5323_100 (length 399)
+annotation_bin1/my_bacteria:k141_5323_101 (length 72)
+annotation_bin1/my_bacteria:k141_5323_102 (length 207)
+annotation_bin1/my_bacteria:k141_5323_103 (length 565)
+annotation_bin1/my_bacteria:k141_5323_104 (length 133)
+annotation_bin1/my_bacteria:k141_5323_105 (length 70)
+annotation_bin1/my_bacteria:k141_5323_106 (length 203)
+annotation_bin1/my_bacteria:k141_5323_107 (length 230)
+annotation_bin1/my_bacteria:k141_5323_108 (length 1057)
+annotation_bin1/my_bacteria:k141_5323_109 (length 366)
+annotation_bin1/my_bacteria:k141_5323_110 (length 425)
+annotation_bin1/my_bacteria:k141_5323_111 (length 293)
+annotation_bin1/my_bacteria:k141_5323_112 (length 435)
+annotation_bin1/my_bacteria:k141_5323_113 (length 175)
+annotation_bin1/my_bacteria:k141_5323_114 (length 305)
+annotation_bin1/my_bacteria:k141_5323_115 (length 163)
+annotation_bin1/my_bacteria:k141_5323_116 (length 64)
+annotation_bin1/my_bacteria:k141_5323_117 (length 265)
+annotation_bin1/my_bacteria:k141_5323_118 (length 917)
+annotation_bin1/my_bacteria:k141_5323_119 (length 205)
+annotation_bin1/my_bacteria:k141_5323_120 (length 50)
+annotation_bin1/my_bacteria:k141_5323_121 (length 218)
+annotation_bin1/my_bacteria:k141_5323_122 (length 96)
+annotation_bin1/my_bacteria:k141_5323_123 (length 187)
+annotation_bin1/my_bacteria:k141_5323_124 (length 224)
+annotation_bin1/my_bacteria:k141_5323_125 (length 263)
+annotation_bin1/my_bacteria:k141_5323_126 (length 390)
+annotation_bin1/my_bacteria:k141_5323_127 (length 470)
+annotation_bin1/my_bacteria:k141_5323_128 (length 439)
+annotation_bin1/my_bacteria:k141_5323_129 (length 449)
+annotation_bin1/my_bacteria:k141_5323_130 (length 321)
+annotation_bin1/my_bacteria:k141_5323_131 (length 744)
+annotation_bin1/my_bacteria:k141_5323_132 (length 133)
+annotation_bin1/my_bacteria:k141_5323_133 (length 311)
+annotation_bin1/my_bacteria:k141_5323_134 (length 143)
+annotation_bin1/my_bacteria:k141_5323_135 (length 537)
+annotation_bin1/my_bacteria:k141_5323_136 (length 146)
+annotation_bin1/my_bacteria:k141_5323_137 (length 228)
+annotation_bin1/my_bacteria:k141_5323_138 (length 44)
+annotation_bin1/my_bacteria:k141_5323_139 (length 44)
+annotation_bin1/my_bacteria:k141_5323_140 (length 62)
+annotation_bin1/my_bacteria:k141_5323_141 (length 315)
+annotation_bin1/my_bacteria:k141_5323_142 (length 75)
+annotation_bin1/my_bacteria:k141_5323_143 (length 518)
+annotation_bin1/my_bacteria:k141_5323_144 (length 311)
+annotation_bin1/my_bacteria:k141_5323_145 (length 333)
+annotation_bin1/my_bacteria:k141_5323_146 (length 241)
+annotation_bin1/my_bacteria:k141_5323_147 (length 241)
+annotation_bin1/my_bacteria:k141_5323_148 (length 238)
+annotation_bin1/my_bacteria:k141_5323_149 (length 65)
+annotation_bin1/my_bacteria:k141_5323_150 (length 319)
+annotation_bin1/my_bacteria:k141_5323_151 (length 77)
+annotation_bin1/my_bacteria:k141_5323_152 (length 61)
+annotation_bin1/my_bacteria:k141_5323_153 (length 116)
+annotation_bin1/my_bacteria:k141_5323_154 (length 165)
+annotation_bin1/my_bacteria:k141_5323_155 (length 168)
+annotation_bin1/my_bacteria:k141_5323_156 (length 133)
+annotation_bin1/my_bacteria:k141_5323_157 (length 109)
+annotation_bin1/my_bacteria:k141_5323_158 (length 167)
+annotation_bin1/my_bacteria:k141_5323_159 (length 195)
+annotation_bin1/my_bacteria:k141_5323_160 (length 266)
+annotation_bin1/my_bacteria:k141_5323_161 (length 271)
+annotation_bin1/my_bacteria:k141_5323_162 (length 588)
+annotation_bin1/my_bacteria:k141_5323_163 (length 204)
+annotation_bin1/my_bacteria:k141_5323_164 (length 593)
+annotation_bin1/my_bacteria:k141_5323_165 (length 104)
+annotation_bin1/my_bacteria:k141_5323_166 (length 782)
+annotation_bin1/my_bacteria:k141_5323_167 (length 570)
+annotation_bin1/my_bacteria:k141_5323_168 (length 173)
+annotation_bin1/my_bacteria:k141_5323_169 (length 88)
+annotation_bin1/my_bacteria:k141_5323_170 (length 312)
+annotation_bin1/my_bacteria:k141_5323_171 (length 800)
+annotation_bin1/my_bacteria:k141_5323_172 (length 352)
+annotation_bin1/my_bacteria:k141_5323_173 (length 246)
+annotation_bin1/my_bacteria:k141_5323_174 (length 107)
+annotation_bin1/my_bacteria:k141_5323_175 (length 244)
+annotation_bin1/my_bacteria:k141_5323_176 (length 322)
+annotation_bin1/my_bacteria:k141_5323_177 (length 292)
+annotation_bin1/my_bacteria:k141_5323_178 (length 358)
+annotation_bin1/my_bacteria:k141_5323_179 (length 227)
+annotation_bin1/my_bacteria:k141_5323_180 (length 350)
+annotation_bin1/my_bacteria:k141_5323_181 (length 645)
+annotation_bin1/my_bacteria:k141_5323_182 (length 57)
+annotation_bin1/my_bacteria:k141_5323_183 (length 185)
+annotation_bin1/my_bacteria:k141_5323_184 (length 379)
+annotation_bin1/my_bacteria:k141_5323_185 (length 160)
+annotation_bin1/my_bacteria:k141_5323_186 (length 180)
+annotation_bin1/my_bacteria:k141_5323_187 (length 129)
+annotation_bin1/my_bacteria:k141_5323_188 (length 84)
+annotation_bin1/my_bacteria:k141_5323_189 (length 308)
+annotation_bin1/my_bacteria:k141_5323_190 (length 144)
+annotation_bin1/my_bacteria:k141_5323_191 (length 345)
+annotation_bin1/my_bacteria:k141_5323_192 (length 153)
+annotation_bin1/my_bacteria:k141_5323_193 (length 303)
+annotation_bin1/my_bacteria:k141_5323_194 (length 356)
+annotation_bin1/my_bacteria:k141_5323_195 (length 1150)
+annotation_bin1/my_bacteria:k141_5323_196 (length 408)
+annotation_bin1/my_bacteria:k141_5323_197 (length 91)
+annotation_bin1/my_bacteria:k141_5323_198 (length 160)
+annotation_bin1/my_bacteria:k141_5323_199 (length 55)
+annotation_bin1/my_bacteria:k141_5323_200 (length 615)
+annotation_bin1/my_bacteria:k141_5323_201 (length 63)
+annotation_bin1/my_bacteria:k141_5323_202 (length 275)
+annotation_bin1/my_bacteria:k141_5323_203 (length 204)
+annotation_bin1/my_bacteria:k141_5323_204 (length 450)
+annotation_bin1/my_bacteria:k141_5323_205 (length 139)
+annotation_bin1/my_bacteria:k141_5323_206 (length 339)
+annotation_bin1/my_bacteria:k141_5323_207 (length 357)
+annotation_bin1/my_bacteria:k141_5323_208 (length 269)
+annotation_bin1/my_bacteria:k141_5323_209 (length 265)
+annotation_bin1/my_bacteria:k141_5323_210 (length 364)
+annotation_bin1/my_bacteria:k141_5323_211 (length 179)
+annotation_bin1/my_bacteria:k141_5323_212 (length 91)
+annotation_bin1/my_bacteria:k141_5323_213 (length 468)
+annotation_bin1/my_bacteria:k141_5323_214 (length 430)
+annotation_bin1/my_bacteria:k141_5323_215 (length 325)
+annotation_bin1/my_bacteria:k141_5323_216 (length 370)
+annotation_bin1/my_bacteria:k141_5323_217 (length 208)
+annotation_bin1/my_bacteria:k141_5323_218 (length 183)
+annotation_bin1/my_bacteria:k141_5323_219 (length 72)
+annotation_bin1/my_bacteria:k141_5323_220 (length 565)
+annotation_bin1/my_bacteria:k141_5323_221 (length 220)
+annotation_bin1/my_bacteria:k141_5323_222 (length 339)
+annotation_bin1/my_bacteria:k141_5323_223 (length 453)
+annotation_bin1/my_bacteria:k141_5323_224 (length 77)
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 224 present
+DiscRep_ALL:DISC_FEATURE_COUNT::tRNA: 1 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+annotation_bin1/my_bacteria:k141_5323 (length 245590)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::225 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c397-185	BOJJPOCI_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c512-384	BOJJPOCI_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Glutamine synthetase	k141_5323:c3127-1787	BOJJPOCI_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	HTH-type transcriptional regulator GlnR	k141_5323:c3514-3146	BOJJPOCI_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c4995-3757	BOJJPOCI_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	GTPase HflX	k141_5323:c6252-5014	BOJJPOCI_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Glutathione peroxidase BsaA	k141_5323:6364-6840	BOJJPOCI_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	RNA-binding protein Hfq	k141_5323:c7295-7062	BOJJPOCI_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	tRNA dimethylallyltransferase	k141_5323:c8245-7310	BOJJPOCI_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Monoacylglycerol lipase	k141_5323:c9180-8263	BOJJPOCI_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Aerobic glycerol-3-phosphate dehydrogenase	k141_5323:c11001-9328	BOJJPOCI_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Glycerol kinase	k141_5323:c12655-11159	BOJJPOCI_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Glycerol uptake facilitator protein	k141_5323:c13602-12784	BOJJPOCI_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Glycerol uptake operon antiterminator regulatory protein	k141_5323:c14600-14067	BOJJPOCI_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	DNA mismatch repair protein MutL	k141_5323:c16624-14615	BOJJPOCI_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	DNA mismatch repair protein MutS	k141_5323:c19255-16637	BOJJPOCI_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c20049-19558	BOJJPOCI_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c20441-20076	BOJJPOCI_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	tRNA-2-methylthio-N(6)-dimethylallyladenosine synthase	k141_5323:c21986-20442	BOJJPOCI_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c22413-22120	BOJJPOCI_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	2-oxoglutarate oxidoreductase subunit KorB	k141_5323:c23373-22507	BOJJPOCI_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	2-oxoglutarate oxidoreductase subunit KorA	k141_5323:c25134-23374	BOJJPOCI_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c26071-25274	BOJJPOCI_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:26245-26460	BOJJPOCI_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Ribonuclease Y	k141_5323:c28316-26757	BOJJPOCI_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Protein RecA	k141_5323:c29713-28670	BOJJPOCI_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Putative competence-damage inducible protein	k141_5323:c31029-29878	BOJJPOCI_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase	k141_5323:c31834-31256	BOJJPOCI_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c32260-31868	BOJJPOCI_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c33106-32279	BOJJPOCI_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Acetoacetyl-CoA reductase	k141_5323:c33915-33211	BOJJPOCI_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Putative zinc protease AlbF	k141_5323:c35201-33915	BOJJPOCI_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	putative zinc protease	k141_5323:c36466-35201	BOJJPOCI_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	putative transcriptional regulator PhnF	k141_5323:c37210-36497	BOJJPOCI_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	DNA translocase FtsK	k141_5323:c39584-37215	BOJJPOCI_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Ribonuclease J 2	k141_5323:c41513-39840	BOJJPOCI_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Polyribonucleotide nucleotidyltransferase	k141_5323:c43845-41749	BOJJPOCI_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	30S ribosomal protein S15	k141_5323:c44484-44215	BOJJPOCI_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Riboflavin biosynthesis protein RibF	k141_5323:c45570-44599	BOJJPOCI_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	tRNA pseudouridine synthase B	k141_5323:c46502-45585	BOJJPOCI_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Ribosome-binding factor A	k141_5323:c47021-46671	BOJJPOCI_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Translation initiation factor IF-2	k141_5323:c49524-47407	BOJJPOCI_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	putative ribosomal protein YlxQ	k141_5323:c49846-49529	BOJJPOCI_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c50127-49843	BOJJPOCI_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Transcription termination/antitermination protein NusA	k141_5323:c51323-50148	BOJJPOCI_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Ribosome maturation factor RimP	k141_5323:c51811-51344	BOJJPOCI_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	DNA polymerase III PolC-type	k141_5323:c56417-52101	BOJJPOCI_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Proline--tRNA ligase	k141_5323:c58378-56675	BOJJPOCI_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Putative zinc metalloprotease	k141_5323:c59684-58398	BOJJPOCI_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Phosphatidate cytidylyltransferase	k141_5323:c60678-59896	BOJJPOCI_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Isoprenyl transferase	k141_5323:c61455-60685	BOJJPOCI_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Ribosome-recycling factor	k141_5323:c62382-61828	BOJJPOCI_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Uridylate kinase	k141_5323:c63123-62401	BOJJPOCI_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Elongation factor Ts	k141_5323:c64141-63260	BOJJPOCI_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	30S ribosomal protein S2	k141_5323:c65090-64323	BOJJPOCI_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	GTP-sensing transcriptional pleiotropic repressor CodY	k141_5323:c66205-65432	BOJJPOCI_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	ATP-dependent protease ATPase subunit HslU	k141_5323:c67633-66230	BOJJPOCI_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	ATP-dependent protease subunit HslV	k141_5323:c68244-67699	BOJJPOCI_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Tyrosine recombinase XerC	k141_5323:c69137-68241	BOJJPOCI_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Methylenetetrahydrofolate--tRNA-(uracil-5-)-methyltransferase TrmFO	k141_5323:c70861-69554	BOJJPOCI_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	DNA topoisomerase 1	k141_5323:c73092-71017	BOJJPOCI_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	DNA processing protein DprA	k141_5323:c74006-73266	BOJJPOCI_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Aminoacyltransferase FemA	k141_5323:c75556-74312	BOJJPOCI_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	putative cell wall hydrolase LytN	k141_5323:c76702-75584	BOJJPOCI_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Succinate--CoA ligase [ADP-forming] subunit alpha	k141_5323:c77837-76929	BOJJPOCI_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Succinate--CoA ligase [ADP-forming] subunit beta	k141_5323:c79025-77859	BOJJPOCI_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Ribonuclease HII	k141_5323:c79901-79134	BOJJPOCI_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Ribosome biogenesis GTPase A	k141_5323:c80769-79885	BOJJPOCI_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:81170-83776	BOJJPOCI_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	50S ribosomal protein L19	k141_5323:c84370-84020	BOJJPOCI_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	tRNA (guanine-N(1)-)-methyltransferase	k141_5323:c85210-84473	BOJJPOCI_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Ribosome maturation factor RimM	k141_5323:c85713-85210	BOJJPOCI_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	30S ribosomal protein S16	k141_5323:c86176-85901	BOJJPOCI_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Signal recognition particle protein	k141_5323:c87978-86611	BOJJPOCI_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c88336-88004	BOJJPOCI_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Signal recognition particle receptor FtsY	k141_5323:c89573-88323	BOJJPOCI_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Chromosome partition protein Smc	k141_5323:c93139-89573	BOJJPOCI_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Ribonuclease 3	k141_5323:c94017-93286	BOJJPOCI_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Acyl carrier protein	k141_5323:c94366-94133	BOJJPOCI_00079
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	3-oxoacyl-[acyl-carrier-protein] reductase FabG	k141_5323:c95343-94609	BOJJPOCI_00080
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Malonyl CoA-acyl carrier protein transacylase	k141_5323:c96262-95336	BOJJPOCI_00081
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Phosphate acyltransferase	k141_5323:c97241-96255	BOJJPOCI_00082
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Transcription factor FapR	k141_5323:c97803-97246	BOJJPOCI_00083
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	ATP-dependent DNA helicase RecG	k141_5323:c100081-98021	BOJJPOCI_00084
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c101917-100271	BOJJPOCI_00085
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c102306-101932	BOJJPOCI_00086
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	50S ribosomal protein L28	k141_5323:102749-102937	BOJJPOCI_00087
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Thiamine pyrophosphokinase	k141_5323:c103959-103318	BOJJPOCI_00088
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Ribulose-phosphate 3-epimerase	k141_5323:c104610-103966	BOJJPOCI_00089
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Small ribosomal subunit biogenesis GTPase RsgA	k141_5323:c105486-104611	BOJJPOCI_00090
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Serine/threonine-protein kinase PrkC	k141_5323:c107708-105714	BOJJPOCI_00091
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Serine/threonine phosphatase stp	k141_5323:c108448-107705	BOJJPOCI_00092
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	putative dual-specificity RNA methyltransferase RlmN	k141_5323:c109549-108455	BOJJPOCI_00093
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Ribosomal RNA small subunit methyltransferase B	k141_5323:c110859-109552	BOJJPOCI_00094
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Methionyl-tRNA formyltransferase	k141_5323:c111791-110856	BOJJPOCI_00095
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Peptide deformylase 1	k141_5323:c112272-111784	BOJJPOCI_00096
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:112496-112774	BOJJPOCI_00097
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c113890-112937	BOJJPOCI_00098
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Primosomal protein N'	k141_5323:c116804-114396	BOJJPOCI_00099
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Coenzyme A biosynthesis bifunctional protein CoaBC	k141_5323:c118003-116804	BOJJPOCI_00100
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	DNA-directed RNA polymerase subunit omega	k141_5323:c118437-118219	BOJJPOCI_00101
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Guanylate kinase	k141_5323:c119060-118437	BOJJPOCI_00102
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:119335-121032	BOJJPOCI_00103
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c121696-121295	BOJJPOCI_00104
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c122345-122133	BOJJPOCI_00105
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Orotate phosphoribosyltransferase	k141_5323:c122986-122375	BOJJPOCI_00106
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Orotidine 5'-phosphate decarboxylase	k141_5323:c123678-122986	BOJJPOCI_00107
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Carbamoyl-phosphate synthase large chain	k141_5323:c126961-123788	BOJJPOCI_00108
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Carbamoyl-phosphate synthase small chain	k141_5323:c128054-126954	BOJJPOCI_00109
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Dihydroorotase	k141_5323:c129333-128056	BOJJPOCI_00110
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Aspartate carbamoyltransferase	k141_5323:c130229-129348	BOJJPOCI_00111
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Uracil permease	k141_5323:c131564-130257	BOJJPOCI_00112
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Bifunctional protein PyrR	k141_5323:c132309-131782	BOJJPOCI_00113
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Ribosomal large subunit pseudouridine synthase D	k141_5323:c133626-132709	BOJJPOCI_00114
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Lipoprotein signal peptidase	k141_5323:c134117-133626	BOJJPOCI_00115
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:134686-134880	BOJJPOCI_00116
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Catechol-2,3-dioxygenase	k141_5323:c135738-134941	BOJJPOCI_00117
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Isoleucine--tRNA ligase	k141_5323:c138781-136028	BOJJPOCI_00118
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Septum site-determining protein DivIVA	k141_5323:c139619-139002	BOJJPOCI_00119
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c139795-139643	BOJJPOCI_00120
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c140448-139792	BOJJPOCI_00121
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c140821-140531	BOJJPOCI_00122
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Cell division protein SepF	k141_5323:c141396-140833	BOJJPOCI_00123
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c142067-141393	BOJJPOCI_00124
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Laccase domain protein YfiH	k141_5323:c142876-142085	BOJJPOCI_00125
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Cell division protein FtsZ	k141_5323:c144308-143136	BOJJPOCI_00126
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Cell division protein FtsA	k141_5323:c145753-144341	BOJJPOCI_00127
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Cell division protein DivIB	k141_5323:c147178-145859	BOJJPOCI_00128
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	UDP-N-acetylmuramoylalanine--D-glutamate ligase	k141_5323:c148543-147194	BOJJPOCI_00129
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Phospho-N-acetylmuramoyl-pentapeptide-transferase	k141_5323:c149510-148545	BOJJPOCI_00130
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Penicillin-binding protein 2B	k141_5323:c152036-149802	BOJJPOCI_00131
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Cell division protein FtsL	k141_5323:c152418-152017	BOJJPOCI_00132
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Ribosomal RNA small subunit methyltransferase H	k141_5323:c153367-152432	BOJJPOCI_00133
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Transcriptional regulator MraZ	k141_5323:c153814-153383	BOJJPOCI_00134
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Putative cysteine ligase BshC	k141_5323:c155571-153958	BOJJPOCI_00135
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	putative N-acetyltransferase	k141_5323:155766-156206	BOJJPOCI_00136
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Putative HAD-hydrolase YfnB	k141_5323:c157001-156315	BOJJPOCI_00137
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Antibacterial protein 3	k141_5323:c157268-157134	BOJJPOCI_00138
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Antibacterial protein 3	k141_5323:c157459-157325	BOJJPOCI_00139
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c158559-158371	BOJJPOCI_00141
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:158808-159755	BOJJPOCI_00142
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c160287-160060	BOJJPOCI_00143
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c162151-160595	BOJJPOCI_00144
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Carbamate kinase 1	k141_5323:c163258-162323	BOJJPOCI_00145
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Ornithine carbamoyltransferase	k141_5323:c164279-163278	BOJJPOCI_00146
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:164717-165442	BOJJPOCI_00147
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Exotoxin type H	k141_5323:165537-166262	BOJJPOCI_00148
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:166370-167086	BOJJPOCI_00149
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c167784-167587	BOJJPOCI_00150
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Alpha-hemolysin	k141_5323:168587-169546	BOJJPOCI_00151
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:170023-170256	BOJJPOCI_00152
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:170878-171063	BOJJPOCI_00153
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Staphylococcal complement inhibitor	k141_5323:c172066-171716	BOJJPOCI_00154
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Fibrinogen-binding protein	k141_5323:c172717-172220	BOJJPOCI_00155
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c173482-172976	BOJJPOCI_00156
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	FPRL1 inhibitory protein	k141_5323:174154-174555	BOJJPOCI_00157
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Fibrinogen-binding protein	k141_5323:c175253-174924	BOJJPOCI_00158
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Putative metallophosphoesterase MG207	k141_5323:c176245-175742	BOJJPOCI_00159
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Non-canonical purine NTP pyrophosphatase	k141_5323:c176825-176238	BOJJPOCI_00160
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Glutamate racemase	k141_5323:c177637-176837	BOJJPOCI_00161
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Fumarate reductase iron-sulfur subunit	k141_5323:c178688-177873	BOJJPOCI_00162
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Fumarate reductase flavoprotein subunit	k141_5323:c180454-178688	BOJJPOCI_00163
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Succinate dehydrogenase cytochrome b558 subunit	k141_5323:c181120-180506	BOJJPOCI_00164
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	UvrABC system protein C	k141_5323:c183225-181444	BOJJPOCI_00165
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Thioredoxin	k141_5323:c183863-183549	BOJJPOCI_00166
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Endonuclease MutS2	k141_5323:c186384-184036	BOJJPOCI_00167
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	DNA polymerase/3'-5' exonuclease PolX	k141_5323:c188106-186394	BOJJPOCI_00168
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c188700-188179	BOJJPOCI_00169
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Cell division protein ZapA	k141_5323:c188967-188701	BOJJPOCI_00170
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Ribonuclease HIII	k141_5323:189337-190275	BOJJPOCI_00171
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Phenylalanine--tRNA ligase beta subunit	k141_5323:c192848-190446	BOJJPOCI_00172
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Phenylalanine--tRNA ligase alpha subunit	k141_5323:c193906-192848	BOJJPOCI_00173
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Putative TrmH family tRNA/rRNA methyltransferase	k141_5323:c195027-194287	BOJJPOCI_00174
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Heme oxygenase (staphylobilin-producing) 1	k141_5323:c195734-195411	BOJJPOCI_00175
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c196487-195753	BOJJPOCI_00176
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	putative heme-iron transport system permease protein IsdF	k141_5323:c197517-196549	BOJJPOCI_00177
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	High-affinity heme uptake system protein IsdE	k141_5323:c198405-197527	BOJJPOCI_00178
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c199478-198402	BOJJPOCI_00179
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Iron-regulated surface determinant protein C	k141_5323:c200161-199478	BOJJPOCI_00180
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Iron-regulated surface determinant protein A	k141_5323:200370-201422	BOJJPOCI_00181
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Iron-regulated surface determinant protein B	k141_5323:201625-203562	BOJJPOCI_00182
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	50S ribosomal protein L32	k141_5323:c203889-203716	BOJJPOCI_00183
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c204526-203969	BOJJPOCI_00184
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:204653-205792	BOJJPOCI_00185
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Phosphopantetheine adenylyltransferase	k141_5323:c206336-205854	BOJJPOCI_00186
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Ribosomal RNA small subunit methyltransferase D	k141_5323:c206880-206338	BOJJPOCI_00187
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:206950-207339	BOJJPOCI_00188
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c207596-207342	BOJJPOCI_00189
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	putative glycerophosphodiester phosphodiesterase 1	k141_5323:207835-208761	BOJJPOCI_00190
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c209258-208824	BOJJPOCI_00191
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c210311-209274	BOJJPOCI_00192
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c211099-210638	BOJJPOCI_00193
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Protoheme IX farnesyltransferase 2	k141_5323:c212035-211124	BOJJPOCI_00194
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Heme A synthase	k141_5323:212316-213386	BOJJPOCI_00195
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	2-oxoglutarate carboxylase small subunit	k141_5323:c216978-213526	BOJJPOCI_00196
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	putative peptidoglycan glycosyltransferase FtsW	k141_5323:c218758-217532	BOJJPOCI_00197
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c219347-219072	BOJJPOCI_00198
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:219488-219970	BOJJPOCI_00199
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:219972-220139	BOJJPOCI_00200
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	GTP-binding protein TypA/BipA	k141_5323:c222126-220279	BOJJPOCI_00201
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:222228-222419	BOJJPOCI_00202
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Inositol-1-monophosphatase	k141_5323:c223400-222573	BOJJPOCI_00203
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:223557-224171	BOJJPOCI_00204
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Divalent metal cation transporter MntH	k141_5323:224356-225708	BOJJPOCI_00205
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c226209-225790	BOJJPOCI_00206
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c227511-226492	BOJJPOCI_00207
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Spermidine/putrescine-binding periplasmic protein	k141_5323:c228658-227585	BOJJPOCI_00208
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Inner membrane ABC transporter permease protein YdcV	k141_5323:c229467-228658	BOJJPOCI_00209
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Spermidine/putrescine transport system permease protein PotB	k141_5323:c230270-229473	BOJJPOCI_00210
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Spermidine/putrescine import ATP-binding protein PotA	k141_5323:c231357-230263	BOJJPOCI_00211
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	HTH-type transcriptional regulator PuuR	k141_5323:c231909-231370	BOJJPOCI_00212
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c232328-232053	BOJJPOCI_00213
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Dihydrolipoyl dehydrogenase	k141_5323:c233902-232496	BOJJPOCI_00214
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex	k141_5323:c235198-233906	BOJJPOCI_00215
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Pyruvate dehydrogenase E1 component subunit beta	k141_5323:c236266-235289	BOJJPOCI_00216
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Pyruvate dehydrogenase E1 component subunit alpha	k141_5323:c237382-236270	BOJJPOCI_00217
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:c238179-237553	BOJJPOCI_00218
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Peptide deformylase	k141_5323:238544-239095	BOJJPOCI_00219
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	hypothetical protein	k141_5323:239576-239794	BOJJPOCI_00220
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Ribonuclease J 1	k141_5323:239794-241491	BOJJPOCI_00221
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Ktr system potassium uptake protein A	k141_5323:c242502-241840	BOJJPOCI_00222
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Putative cytochrome bd menaquinol oxidase subunit II	k141_5323:c243654-242635	BOJJPOCI_00223
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Putative cytochrome bd menaquinol oxidase subunit I	k141_5323:c245012-243651	BOJJPOCI_00224
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+annotation_bin1/my_bacteria:CDS	Glutaredoxin-like protein NrdH	k141_5323:245210-245443	BOJJPOCI_00225
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+annotation_bin1/my_bacteria:tRNA	Arg	k141_5323:157822-157897	BOJJPOCI_00140
+
+DiscRep_ALL:SUSPECT_PRODUCT_NAMES::2 product_names contain suspect phrase or characters
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::May contain database identifier more appropriate in note; remove from product name
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::1 features contains three or more numbers together that may be identifiers more appropriate in note
+annotation_bin1/my_bacteria:CDS	Putative metallophosphoesterase MG207	k141_5323:c176245-175742	BOJJPOCI_00159
+
+FATAL: DiscRep_SUB:SUSPECT_PRODUCT_NAMES::Reganism from product namuct name
+DiscRep_SUB:DISC_PRODUCT_NAME_QUICKFIX::1 features contains 'staphylococcal'
+annotation_bin1/my_bacteria:CDS	Staphylococcal complement inhibitor	k141_5323:c172066-171716	BOJJPOCI_00154
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+annotation_bin1/my_bacteria:k141_5323:Annotated using prokka 1.12 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::3 protein sequences are shorter than 50 aa.
+annotation_bin1/my_bacteria:k141_5323_2 (length 42)
+annotation_bin1/my_bacteria:k141_5323_138 (length 44)
+annotation_bin1/my_bacteria:k141_5323_139 (length 44)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+annotation_bin1/my_bacteria:k141_5323 (length 245590)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+annotation_bin1/my_bacteria:k141_5323 (length 245590)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+annotation_bin1/my_bacteria:k141_5323 (length 245590)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+annotation_bin1/my_bacteria:k141_5323 (length 245590)
+
+DiscRep_ALL:MISSING_PROJECT::225 sequences do not include project.
+annotation_bin1/my_bacteria:k141_5323 (length 245590)
+annotation_bin1/my_bacteria:k141_5323_1 (length 70)
+annotation_bin1/my_bacteria:k141_5323_2 (length 42)
+annotation_bin1/my_bacteria:k141_5323_3 (length 446)
+annotation_bin1/my_bacteria:k141_5323_4 (length 122)
+annotation_bin1/my_bacteria:k141_5323_5 (length 412)
+annotation_bin1/my_bacteria:k141_5323_6 (length 412)
+annotation_bin1/my_bacteria:k141_5323_7 (length 158)
+annotation_bin1/my_bacteria:k141_5323_8 (length 77)
+annotation_bin1/my_bacteria:k141_5323_9 (length 311)
+annotation_bin1/my_bacteria:k141_5323_10 (length 305)
+annotation_bin1/my_bacteria:k141_5323_11 (length 557)
+annotation_bin1/my_bacteria:k141_5323_12 (length 498)
+annotation_bin1/my_bacteria:k141_5323_13 (length 272)
+annotation_bin1/my_bacteria:k141_5323_14 (length 177)
+annotation_bin1/my_bacteria:k141_5323_15 (length 669)
+annotation_bin1/my_bacteria:k141_5323_16 (length 872)
+annotation_bin1/my_bacteria:k141_5323_17 (length 163)
+annotation_bin1/my_bacteria:k141_5323_18 (length 121)
+annotation_bin1/my_bacteria:k141_5323_19 (length 514)
+annotation_bin1/my_bacteria:k141_5323_20 (length 97)
+annotation_bin1/my_bacteria:k141_5323_21 (length 288)
+annotation_bin1/my_bacteria:k141_5323_22 (length 586)
+annotation_bin1/my_bacteria:k141_5323_23 (length 265)
+annotation_bin1/my_bacteria:k141_5323_24 (length 71)
+annotation_bin1/my_bacteria:k141_5323_25 (length 519)
+annotation_bin1/my_bacteria:k141_5323_26 (length 347)
+annotation_bin1/my_bacteria:k141_5323_27 (length 383)
+annotation_bin1/my_bacteria:k141_5323_28 (length 192)
+annotation_bin1/my_bacteria:k141_5323_29 (length 130)
+annotation_bin1/my_bacteria:k141_5323_30 (length 275)
+annotation_bin1/my_bacteria:k141_5323_31 (length 234)
+annotation_bin1/my_bacteria:k141_5323_32 (length 428)
+annotation_bin1/my_bacteria:k141_5323_33 (length 421)
+annotation_bin1/my_bacteria:k141_5323_34 (length 237)
+annotation_bin1/my_bacteria:k141_5323_35 (length 789)
+annotation_bin1/my_bacteria:k141_5323_36 (length 557)
+annotation_bin1/my_bacteria:k141_5323_37 (length 698)
+annotation_bin1/my_bacteria:k141_5323_38 (length 89)
+annotation_bin1/my_bacteria:k141_5323_39 (length 323)
+annotation_bin1/my_bacteria:k141_5323_40 (length 305)
+annotation_bin1/my_bacteria:k141_5323_41 (length 116)
+annotation_bin1/my_bacteria:k141_5323_42 (length 705)
+annotation_bin1/my_bacteria:k141_5323_43 (length 105)
+annotation_bin1/my_bacteria:k141_5323_44 (length 94)
+annotation_bin1/my_bacteria:k141_5323_45 (length 391)
+annotation_bin1/my_bacteria:k141_5323_46 (length 155)
+annotation_bin1/my_bacteria:k141_5323_47 (length 1438)
+annotation_bin1/my_bacteria:k141_5323_48 (length 567)
+annotation_bin1/my_bacteria:k141_5323_49 (length 428)
+annotation_bin1/my_bacteria:k141_5323_50 (length 260)
+annotation_bin1/my_bacteria:k141_5323_51 (length 256)
+annotation_bin1/my_bacteria:k141_5323_52 (length 184)
+annotation_bin1/my_bacteria:k141_5323_53 (length 240)
+annotation_bin1/my_bacteria:k141_5323_54 (length 293)
+annotation_bin1/my_bacteria:k141_5323_55 (length 255)
+annotation_bin1/my_bacteria:k141_5323_56 (length 257)
+annotation_bin1/my_bacteria:k141_5323_57 (length 467)
+annotation_bin1/my_bacteria:k141_5323_58 (length 181)
+annotation_bin1/my_bacteria:k141_5323_59 (length 298)
+annotation_bin1/my_bacteria:k141_5323_60 (length 435)
+annotation_bin1/my_bacteria:k141_5323_61 (length 691)
+annotation_bin1/my_bacteria:k141_5323_62 (length 246)
+annotation_bin1/my_bacteria:k141_5323_63 (length 414)
+annotation_bin1/my_bacteria:k141_5323_64 (length 372)
+annotation_bin1/my_bacteria:k141_5323_65 (length 302)
+annotation_bin1/my_bacteria:k141_5323_66 (length 388)
+annotation_bin1/my_bacteria:k141_5323_67 (length 255)
+annotation_bin1/my_bacteria:k141_5323_68 (length 294)
+annotation_bin1/my_bacteria:k141_5323_69 (length 868)
+annotation_bin1/my_bacteria:k141_5323_70 (length 116)
+annotation_bin1/my_bacteria:k141_5323_71 (length 245)
+annotation_bin1/my_bacteria:k141_5323_72 (length 167)
+annotation_bin1/my_bacteria:k141_5323_73 (length 91)
+annotation_bin1/my_bacteria:k141_5323_74 (length 455)
+annotation_bin1/my_bacteria:k141_5323_75 (length 110)
+annotation_bin1/my_bacteria:k141_5323_76 (length 416)
+annotation_bin1/my_bacteria:k141_5323_77 (length 1188)
+annotation_bin1/my_bacteria:k141_5323_78 (length 243)
+annotation_bin1/my_bacteria:k141_5323_79 (length 77)
+annotation_bin1/my_bacteria:k141_5323_80 (length 244)
+annotation_bin1/my_bacteria:k141_5323_81 (length 308)
+annotation_bin1/my_bacteria:k141_5323_82 (length 328)
+annotation_bin1/my_bacteria:k141_5323_83 (length 185)
+annotation_bin1/my_bacteria:k141_5323_84 (length 686)
+annotation_bin1/my_bacteria:k141_5323_85 (length 548)
+annotation_bin1/my_bacteria:k141_5323_86 (length 124)
+annotation_bin1/my_bacteria:k141_5323_87 (length 62)
+annotation_bin1/my_bacteria:k141_5323_88 (length 213)
+annotation_bin1/my_bacteria:k141_5323_89 (length 214)
+annotation_bin1/my_bacteria:k141_5323_90 (length 291)
+annotation_bin1/my_bacteria:k141_5323_91 (length 664)
+annotation_bin1/my_bacteria:k141_5323_92 (length 247)
+annotation_bin1/my_bacteria:k141_5323_93 (length 364)
+annotation_bin1/my_bacteria:k141_5323_94 (length 435)
+annotation_bin1/my_bacteria:k141_5323_95 (length 311)
+annotation_bin1/my_bacteria:k141_5323_96 (length 162)
+annotation_bin1/my_bacteria:k141_5323_97 (length 92)
+annotation_bin1/my_bacteria:k141_5323_98 (length 317)
+annotation_bin1/my_bacteria:k141_5323_99 (length 802)
+annotation_bin1/my_bacteria:k141_5323_100 (length 399)
+annotation_bin1/my_bacteria:k141_5323_101 (length 72)
+annotation_bin1/my_bacteria:k141_5323_102 (length 207)
+annotation_bin1/my_bacteria:k141_5323_103 (length 565)
+annotation_bin1/my_bacteria:k141_5323_104 (length 133)
+annotation_bin1/my_bacteria:k141_5323_105 (length 70)
+annotation_bin1/my_bacteria:k141_5323_106 (length 203)
+annotation_bin1/my_bacteria:k141_5323_107 (length 230)
+annotation_bin1/my_bacteria:k141_5323_108 (length 1057)
+annotation_bin1/my_bacteria:k141_5323_109 (length 366)
+annotation_bin1/my_bacteria:k141_5323_110 (length 425)
+annotation_bin1/my_bacteria:k141_5323_111 (length 293)
+annotation_bin1/my_bacteria:k141_5323_112 (length 435)
+annotation_bin1/my_bacteria:k141_5323_113 (length 175)
+annotation_bin1/my_bacteria:k141_5323_114 (length 305)
+annotation_bin1/my_bacteria:k141_5323_115 (length 163)
+annotation_bin1/my_bacteria:k141_5323_116 (length 64)
+annotation_bin1/my_bacteria:k141_5323_117 (length 265)
+annotation_bin1/my_bacteria:k141_5323_118 (length 917)
+annotation_bin1/my_bacteria:k141_5323_119 (length 205)
+annotation_bin1/my_bacteria:k141_5323_120 (length 50)
+annotation_bin1/my_bacteria:k141_5323_121 (length 218)
+annotation_bin1/my_bacteria:k141_5323_122 (length 96)
+annotation_bin1/my_bacteria:k141_5323_123 (length 187)
+annotation_bin1/my_bacteria:k141_5323_124 (length 224)
+annotation_bin1/my_bacteria:k141_5323_125 (length 263)
+annotation_bin1/my_bacteria:k141_5323_126 (length 390)
+annotation_bin1/my_bacteria:k141_5323_127 (length 470)
+annotation_bin1/my_bacteria:k141_5323_128 (length 439)
+annotation_bin1/my_bacteria:k141_5323_129 (length 449)
+annotation_bin1/my_bacteria:k141_5323_130 (length 321)
+annotation_bin1/my_bacteria:k141_5323_131 (length 744)
+annotation_bin1/my_bacteria:k141_5323_132 (length 133)
+annotation_bin1/my_bacteria:k141_5323_133 (length 311)
+annotation_bin1/my_bacteria:k141_5323_134 (length 143)
+annotation_bin1/my_bacteria:k141_5323_135 (length 537)
+annotation_bin1/my_bacteria:k141_5323_136 (length 146)
+annotation_bin1/my_bacteria:k141_5323_137 (length 228)
+annotation_bin1/my_bacteria:k141_5323_138 (length 44)
+annotation_bin1/my_bacteria:k141_5323_139 (length 44)
+annotation_bin1/my_bacteria:k141_5323_140 (length 62)
+annotation_bin1/my_bacteria:k141_5323_141 (length 315)
+annotation_bin1/my_bacteria:k141_5323_142 (length 75)
+annotation_bin1/my_bacteria:k141_5323_143 (length 518)
+annotation_bin1/my_bacteria:k141_5323_144 (length 311)
+annotation_bin1/my_bacteria:k141_5323_145 (length 333)
+annotation_bin1/my_bacteria:k141_5323_146 (length 241)
+annotation_bin1/my_bacteria:k141_5323_147 (length 241)
+annotation_bin1/my_bacteria:k141_5323_148 (length 238)
+annotation_bin1/my_bacteria:k141_5323_149 (length 65)
+annotation_bin1/my_bacteria:k141_5323_150 (length 319)
+annotation_bin1/my_bacteria:k141_5323_151 (length 77)
+annotation_bin1/my_bacteria:k141_5323_152 (length 61)
+annotation_bin1/my_bacteria:k141_5323_153 (length 116)
+annotation_bin1/my_bacteria:k141_5323_154 (length 165)
+annotation_bin1/my_bacteria:k141_5323_155 (length 168)
+annotation_bin1/my_bacteria:k141_5323_156 (length 133)
+annotation_bin1/my_bacteria:k141_5323_157 (length 109)
+annotation_bin1/my_bacteria:k141_5323_158 (length 167)
+annotation_bin1/my_bacteria:k141_5323_159 (length 195)
+annotation_bin1/my_bacteria:k141_5323_160 (length 266)
+annotation_bin1/my_bacteria:k141_5323_161 (length 271)
+annotation_bin1/my_bacteria:k141_5323_162 (length 588)
+annotation_bin1/my_bacteria:k141_5323_163 (length 204)
+annotation_bin1/my_bacteria:k141_5323_164 (length 593)
+annotation_bin1/my_bacteria:k141_5323_165 (length 104)
+annotation_bin1/my_bacteria:k141_5323_166 (length 782)
+annotation_bin1/my_bacteria:k141_5323_167 (length 570)
+annotation_bin1/my_bacteria:k141_5323_168 (length 173)
+annotation_bin1/my_bacteria:k141_5323_169 (length 88)
+annotation_bin1/my_bacteria:k141_5323_170 (length 312)
+annotation_bin1/my_bacteria:k141_5323_171 (length 800)
+annotation_bin1/my_bacteria:k141_5323_172 (length 352)
+annotation_bin1/my_bacteria:k141_5323_173 (length 246)
+annotation_bin1/my_bacteria:k141_5323_174 (length 107)
+annotation_bin1/my_bacteria:k141_5323_175 (length 244)
+annotation_bin1/my_bacteria:k141_5323_176 (length 322)
+annotation_bin1/my_bacteria:k141_5323_177 (length 292)
+annotation_bin1/my_bacteria:k141_5323_178 (length 358)
+annotation_bin1/my_bacteria:k141_5323_179 (length 227)
+annotation_bin1/my_bacteria:k141_5323_180 (length 350)
+annotation_bin1/my_bacteria:k141_5323_181 (length 645)
+annotation_bin1/my_bacteria:k141_5323_182 (length 57)
+annotation_bin1/my_bacteria:k141_5323_183 (length 185)
+annotation_bin1/my_bacteria:k141_5323_184 (length 379)
+annotation_bin1/my_bacteria:k141_5323_185 (length 160)
+annotation_bin1/my_bacteria:k141_5323_186 (length 180)
+annotation_bin1/my_bacteria:k141_5323_187 (length 129)
+annotation_bin1/my_bacteria:k141_5323_188 (length 84)
+annotation_bin1/my_bacteria:k141_5323_189 (length 308)
+annotation_bin1/my_bacteria:k141_5323_190 (length 144)
+annotation_bin1/my_bacteria:k141_5323_191 (length 345)
+annotation_bin1/my_bacteria:k141_5323_192 (length 153)
+annotation_bin1/my_bacteria:k141_5323_193 (length 303)
+annotation_bin1/my_bacteria:k141_5323_194 (length 356)
+annotation_bin1/my_bacteria:k141_5323_195 (length 1150)
+annotation_bin1/my_bacteria:k141_5323_196 (length 408)
+annotation_bin1/my_bacteria:k141_5323_197 (length 91)
+annotation_bin1/my_bacteria:k141_5323_198 (length 160)
+annotation_bin1/my_bacteria:k141_5323_199 (length 55)
+annotation_bin1/my_bacteria:k141_5323_200 (length 615)
+annotation_bin1/my_bacteria:k141_5323_201 (length 63)
+annotation_bin1/my_bacteria:k141_5323_202 (length 275)
+annotation_bin1/my_bacteria:k141_5323_203 (length 204)
+annotation_bin1/my_bacteria:k141_5323_204 (length 450)
+annotation_bin1/my_bacteria:k141_5323_205 (length 139)
+annotation_bin1/my_bacteria:k141_5323_206 (length 339)
+annotation_bin1/my_bacteria:k141_5323_207 (length 357)
+annotation_bin1/my_bacteria:k141_5323_208 (length 269)
+annotation_bin1/my_bacteria:k141_5323_209 (length 265)
+annotation_bin1/my_bacteria:k141_5323_210 (length 364)
+annotation_bin1/my_bacteria:k141_5323_211 (length 179)
+annotation_bin1/my_bacteria:k141_5323_212 (length 91)
+annotation_bin1/my_bacteria:k141_5323_213 (length 468)
+annotation_bin1/my_bacteria:k141_5323_214 (length 430)
+annotation_bin1/my_bacteria:k141_5323_215 (length 325)
+annotation_bin1/my_bacteria:k141_5323_216 (length 370)
+annotation_bin1/my_bacteria:k141_5323_217 (length 208)
+annotation_bin1/my_bacteria:k141_5323_218 (length 183)
+annotation_bin1/my_bacteria:k141_5323_219 (length 72)
+annotation_bin1/my_bacteria:k141_5323_220 (length 565)
+annotation_bin1/my_bacteria:k141_5323_221 (length 220)
+annotation_bin1/my_bacteria:k141_5323_222 (length 339)
+annotation_bin1/my_bacteria:k141_5323_223 (length 453)
+annotation_bin1/my_bacteria:k141_5323_224 (length 77)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+annotation_bin1/my_bacteria:k141_5323 (length 245590)
+

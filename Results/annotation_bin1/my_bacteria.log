@@ -1,0 +1,133 @@
+[01:36:48] This is prokka 1.12
+[01:36:48] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[01:36:48] Homepage is https://github.com/tseemann/prokka
+[01:36:48] Local time is Tue Jan 13 01:36:48 2026
+[01:36:48] You are anas-saedwi
+[01:36:48] Operating system is linux
+[01:36:48] You have BioPerl 1.006924
+[01:36:48] System has 8 cores.
+[01:36:48] Will use maximum of 4 cores.
+[01:36:48] Annotating as >>> Bacteria <<<
+[01:36:48] Generating locus_tag from 'bins/bins.1.fa' contents.
+[01:36:48] Setting --locustag BOJJPOCI from MD5 b83398c2dd3bd9b8d94c8f46c4a9f72e
+[01:36:48] Creating new output folder: annotation_bin1
+[01:36:48] Running: mkdir -p annotation_bin1
+[01:36:48] Using filename prefix: my_bacteria.XXX
+[01:36:48] Setting HMMER_NCPU=1
+[01:36:48] Writing log to: annotation_bin1/my_bacteria.log
+[01:36:48] Command: /home/anas-saedwi/anaconda3/envs/prokka_env/bin/prokka bins/bins.1.fa --outdir annotation_bin1 --prefix my_bacteria --cpus 4
+[01:36:48] Appending to PATH: /home/anas-saedwi/anaconda3/envs/prokka_env/bin
+[01:36:48] Looking for 'aragorn' - found /home/anas-saedwi/anaconda3/envs/prokka_env/bin/aragorn
+[01:36:48] Determined aragorn version is 1.2
+[01:36:48] Looking for 'barrnap' - found /home/anas-saedwi/anaconda3/envs/prokka_env/bin/barrnap
+[01:36:48] Determined barrnap version is 0.9
+[01:36:48] Looking for 'blastp' - found /home/anas-saedwi/anaconda3/envs/prokka_env/bin/blastp
+[01:36:48] Determined blastp version is 2.5
+[01:36:48] Looking for 'cmpress' - found /home/anas-saedwi/anaconda3/envs/prokka_env/bin/cmpress
+[01:36:48] Determined cmpress version is 1.1
+[01:36:48] Looking for 'cmscan' - found /home/anas-saedwi/anaconda3/envs/prokka_env/bin/cmscan
+[01:36:48] Determined cmscan version is 1.1
+[01:36:48] Looking for 'egrep' - found /usr/bin/egrep
+[01:36:48] Looking for 'find' - found /usr/bin/find
+[01:36:48] Looking for 'grep' - found /usr/bin/grep
+[01:36:48] Looking for 'hmmpress' - found /home/anas-saedwi/anaconda3/envs/prokka_env/bin/hmmpress
+[01:36:48] Determined hmmpress version is 3.4
+[01:36:48] Looking for 'hmmscan' - found /home/anas-saedwi/anaconda3/envs/prokka_env/bin/hmmscan
+[01:36:48] Determined hmmscan version is 3.4
+[01:36:48] Looking for 'java' - found /home/anas-saedwi/anaconda3/envs/prokka_env/bin/java
+[01:36:48] Looking for 'less' - found /usr/bin/less
+[01:36:48] Looking for 'makeblastdb' - found /home/anas-saedwi/anaconda3/envs/prokka_env/bin/makeblastdb
+[01:36:48] Determined makeblastdb version is 2.5
+[01:36:48] Looking for 'minced' - found /home/anas-saedwi/anaconda3/envs/prokka_env/bin/minced
+[01:36:49] Determined minced version is 4.2
+[01:36:49] Looking for 'parallel' - found /home/anas-saedwi/anaconda3/envs/prokka_env/bin/parallel
+[01:36:49] Determined parallel version is 20170422
+[01:36:49] Looking for 'prodigal' - found /home/anas-saedwi/anaconda3/envs/prokka_env/bin/prodigal
+[01:36:49] Determined prodigal version is 2.6
+[01:36:49] Looking for 'prokka-genbank_to_fasta_db' - found /home/anas-saedwi/anaconda3/envs/prokka_env/bin/prokka-genbank_to_fasta_db
+[01:36:49] Looking for 'sed' - found /usr/bin/sed
+[01:36:49] Looking for 'tbl2asn' - found /home/anas-saedwi/anaconda3/envs/prokka_env/bin/tbl2asn
+[01:36:49] Determined tbl2asn version is 25.8
+[01:36:49] Using genetic code table 11.
+[01:36:49] Loading and checking input file: bins/bins.1.fa
+[01:36:49] Wrote 1 contigs totalling 245590 bp.
+[01:36:49] Predicting tRNAs and tmRNAs
+[01:36:49] Running: aragorn -l -gc11  -w annotation_bin1\/my_bacteria\.fna
+[01:36:49] 1 tRNA-Arg [157822,157897] 36 (tct)
+[01:36:49] Found 1 tRNAs
+[01:36:49] Predicting Ribosomal RNAs
+[01:36:49] Running Barrnap with 4 threads
+[01:36:49] Found 0 rRNAs
+[01:36:49] Skipping ncRNA search, enable with --rfam if desired.
+[01:36:49] Total of 1 tRNA + rRNA features
+[01:36:49] Searching for CRISPR repeats
+[01:36:49] Found 0 CRISPRs
+[01:36:49] Predicting coding sequences
+[01:36:49] Contigs total 245590 bp, so using single mode
+[01:36:49] Running: prodigal -i annotation_bin1\/my_bacteria\.fna -c -m -g 11 -p single -f sco -q
+[01:36:49] Found 224 CDS
+[01:36:49] Connecting features back to sequences
+[01:36:49] Not using genus-specific database. Try --usegenus to enable it.
+[01:36:49] Annotating CDS, please be patient.
+[01:36:49] Will use 4 CPUs for similarity searching.
+[01:36:50] There are still 224 unannotated CDS left (started with 224)
+[01:36:50] Will use blast to search against /home/anas-saedwi/anaconda3/envs/prokka_env/bin/../db/kingdom/Bacteria/sprot with 4 CPUs
+[01:36:50] Running: cat annotation_bin1\/sprot\.faa | parallel --gnu --plain -j 4 --block 8885 --recstart '>' --pipe blastp -query - -db /home/anas-saedwi/anaconda3/envs/prokka_env/bin/../db/kingdom/Bacteria/sprot -evalue 1e-06 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > annotation_bin1\/sprot\.blast 2> /dev/null
+[01:36:53] Modify product: Probable cell wall hydrolase LytN => putative cell wall hydrolase LytN
+[01:36:53] Modify product: Glutathione peroxidase homolog BsaA => Glutathione peroxidase  BsaA
+[01:36:53] Modify product: Probable dual-specificity RNA methyltransferase RlmN => putative dual-specificity RNA methyltransferase RlmN
+[01:36:53] Modify product: Uncharacterized zinc protease Rv2782c => putative zinc protease
+[01:36:53] Modify product: Probable transcriptional regulator PhnF => putative transcriptional regulator PhnF
+[01:36:53] Modify product: Probable ribosomal protein YlxQ => putative ribosomal protein YlxQ
+[01:36:53] Modify product: Putative zinc metalloprotease SA1105 => Putative zinc metalloprotease
+[01:36:53] Modify product: Uncharacterized N-acetyltransferase SA1019 => putative N-acetyltransferase
+[01:36:53] Modify product: Putative metallophosphoesterase MG207 homolog => Putative metallophosphoesterase MG207 
+[01:36:53] Modify product: Probable heme-iron transport system permease protein IsdF => putative heme-iron transport system permease protein IsdF
+[01:36:53] Modify product: Probable glycerophosphodiester phosphodiesterase 1 => putative glycerophosphodiester phosphodiesterase 1
+[01:36:53] Modify product: Probable peptidoglycan glycosyltransferase FtsW => putative peptidoglycan glycosyltransferase FtsW
+[01:36:54] Cleaned 12 /product names
+[01:36:54] Deleting unwanted file: annotation_bin1/sprot.faa
+[01:36:54] Deleting unwanted file: annotation_bin1/sprot.blast
+[01:36:54] There are still 57 unannotated CDS left (started with 224)
+[01:36:54] Will use hmmer3 to search against /home/anas-saedwi/anaconda3/envs/prokka_env/bin/../db/hmm/HAMAP.hmm with 4 CPUs
+[01:36:54] Running: cat annotation_bin1\/HAMAP\.hmm\.faa | parallel --gnu --plain -j 4 --block 1426 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-06 --cpu 1 /home/anas-saedwi/anaconda3/envs/prokka_env/bin/../db/hmm/HAMAP.hmm /dev/stdin > annotation_bin1\/HAMAP\.hmm\.hmmer3 2> /dev/null
+[01:36:55] Deleting unwanted file: annotation_bin1/HAMAP.hmm.faa
+[01:36:55] Deleting unwanted file: annotation_bin1/HAMAP.hmm.hmmer3
+[01:36:55] Labelling remaining 55 proteins as 'hypothetical protein'
+[01:36:55] Possible /pseudo 'Antibacterial protein 3' at k141_5323 position 157325
+[01:36:55] Found 159 unique /gene codes.
+[01:36:55] Fixed 2 duplicate /gene - fib_1 fib_2
+[01:36:55] Fixed 1 colliding /gene names.
+[01:36:55] Adding /locus_tag identifiers
+[01:36:55] Assigned 225 locus_tags to CDS and RNA features.
+[01:36:55] Writing outputs to annotation_bin1/
+[01:36:55] Generating annotation statistics file
+[01:36:55] Generating Genbank and Sequin files
+[01:36:55] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.12 from https://github.com/tseemann/prokka' -Z annotation_bin1\/my_bacteria\.err -i annotation_bin1\/my_bacteria\.fsa 2> /dev/null
+[01:36:55] Deleting unwanted file: annotation_bin1/errorsummary.val
+[01:36:55] Deleting unwanted file: annotation_bin1/my_bacteria.dr
+[01:36:55] Deleting unwanted file: annotation_bin1/my_bacteria.fixedproducts
+[01:36:55] Deleting unwanted file: annotation_bin1/my_bacteria.ecn
+[01:36:55] Deleting unwanted file: annotation_bin1/my_bacteria.val
+[01:36:55] Repairing broken .GBK output that tbl2asn produces...
+[01:36:55] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < annotation_bin1\/my_bacteria\.gbf > annotation_bin1\/my_bacteria\.gbk
+[01:36:55] Deleting unwanted file: annotation_bin1/my_bacteria.gbf
+[01:36:55] Output files:
+[01:36:55] annotation_bin1/my_bacteria.gff
+[01:36:55] annotation_bin1/my_bacteria.gbk
+[01:36:55] annotation_bin1/my_bacteria.ffn
+[01:36:55] annotation_bin1/my_bacteria.tbl
+[01:36:55] annotation_bin1/my_bacteria.faa
+[01:36:55] annotation_bin1/my_bacteria.txt
+[01:36:55] annotation_bin1/my_bacteria.fna
+[01:36:55] annotation_bin1/my_bacteria.log
+[01:36:55] annotation_bin1/my_bacteria.tsv
+[01:36:55] annotation_bin1/my_bacteria.fsa
+[01:36:55] annotation_bin1/my_bacteria.sqn
+[01:36:55] annotation_bin1/my_bacteria.err
+[01:36:55] Annotation finished successfully.
+[01:36:55] Walltime used: 0.12 minutes
+[01:36:55] If you use this result please cite the Prokka paper:
+[01:36:55] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[01:36:55] Type 'prokka --citation' for more details.
+[01:36:55] Share and enjoy!

@@ -1,0 +1,226 @@
+locus_tag	ftype	gene	EC_number	product
+BOJJPOCI_00001	CDS	hypothetical protein
+BOJJPOCI_00002	CDS	hypothetical protein
+BOJJPOCI_00003	CDS	glnA	6.3.1.2	Glutamine synthetase
+BOJJPOCI_00004	CDS	glnR	HTH-type transcriptional regulator GlnR
+BOJJPOCI_00005	CDS	hypothetical protein
+BOJJPOCI_00006	CDS	hflX	GTPase HflX
+BOJJPOCI_00007	CDS	bsaA	Glutathione peroxidase  BsaA
+BOJJPOCI_00008	CDS	hfq	RNA-binding protein Hfq
+BOJJPOCI_00009	CDS	miaA	2.5.1.75	tRNA dimethylallyltransferase
+BOJJPOCI_00010	CDS	3.1.1.23	Monoacylglycerol lipase
+BOJJPOCI_00011	CDS	glpD	1.1.5.3	Aerobic glycerol-3-phosphate dehydrogenase
+BOJJPOCI_00012	CDS	glpK	2.7.1.30	Glycerol kinase
+BOJJPOCI_00013	CDS	glpF	Glycerol uptake facilitator protein
+BOJJPOCI_00014	CDS	glpP	Glycerol uptake operon antiterminator regulatory protein
+BOJJPOCI_00015	CDS	mutL	DNA mismatch repair protein MutL
+BOJJPOCI_00016	CDS	mutS	DNA mismatch repair protein MutS
+BOJJPOCI_00017	CDS	hypothetical protein
+BOJJPOCI_00018	CDS	hypothetical protein
+BOJJPOCI_00019	CDS	miaB	2.8.4.3	tRNA-2-methylthio-N(6)-dimethylallyladenosine synthase
+BOJJPOCI_00020	CDS	hypothetical protein
+BOJJPOCI_00021	CDS	korB	1.2.7.3	2-oxoglutarate oxidoreductase subunit KorB
+BOJJPOCI_00022	CDS	korA	1.2.7.3	2-oxoglutarate oxidoreductase subunit KorA
+BOJJPOCI_00023	CDS	hypothetical protein
+BOJJPOCI_00024	CDS	hypothetical protein
+BOJJPOCI_00025	CDS	rny	3.1.-.-	Ribonuclease Y
+BOJJPOCI_00026	CDS	recA	Protein RecA
+BOJJPOCI_00027	CDS	cinA	Putative competence-damage inducible protein
+BOJJPOCI_00028	CDS	pgsA	2.7.8.5	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase
+BOJJPOCI_00029	CDS	hypothetical protein
+BOJJPOCI_00030	CDS	hypothetical protein
+BOJJPOCI_00031	CDS	phaB	1.1.1.36	Acetoacetyl-CoA reductase
+BOJJPOCI_00032	CDS	albF	3.4.24.-	Putative zinc protease AlbF
+BOJJPOCI_00033	CDS	3.4.24.-	putative zinc protease
+BOJJPOCI_00034	CDS	phnF	putative transcriptional regulator PhnF
+BOJJPOCI_00035	CDS	ftsK	DNA translocase FtsK
+BOJJPOCI_00036	CDS	rnj2	3.1.-.-	Ribonuclease J 2
+BOJJPOCI_00037	CDS	pnp	2.7.7.8	Polyribonucleotide nucleotidyltransferase
+BOJJPOCI_00038	CDS	rpsO	30S ribosomal protein S15
+BOJJPOCI_00039	CDS	ribF	Riboflavin biosynthesis protein RibF
+BOJJPOCI_00040	CDS	truB	5.4.99.25	tRNA pseudouridine synthase B
+BOJJPOCI_00041	CDS	rbfA	Ribosome-binding factor A
+BOJJPOCI_00042	CDS	infB	Translation initiation factor IF-2
+BOJJPOCI_00043	CDS	rplGA	putative ribosomal protein YlxQ
+BOJJPOCI_00044	CDS	hypothetical protein
+BOJJPOCI_00045	CDS	nusA	Transcription termination/antitermination protein NusA
+BOJJPOCI_00046	CDS	rimP	Ribosome maturation factor RimP
+BOJJPOCI_00047	CDS	polC	2.7.7.7	DNA polymerase III PolC-type
+BOJJPOCI_00048	CDS	proS	6.1.1.15	Proline--tRNA ligase
+BOJJPOCI_00049	CDS	3.4.24.-	Putative zinc metalloprotease
+BOJJPOCI_00050	CDS	cdsA	2.7.7.41	Phosphatidate cytidylyltransferase
+BOJJPOCI_00051	CDS	uppS	2.5.1.-	Isoprenyl transferase
+BOJJPOCI_00052	CDS	frr	Ribosome-recycling factor
+BOJJPOCI_00053	CDS	pyrH	2.7.4.22	Uridylate kinase
+BOJJPOCI_00054	CDS	tsf	Elongation factor Ts
+BOJJPOCI_00055	CDS	rpsB	30S ribosomal protein S2
+BOJJPOCI_00056	CDS	codY	GTP-sensing transcriptional pleiotropic repressor CodY
+BOJJPOCI_00057	CDS	hslU	ATP-dependent protease ATPase subunit HslU
+BOJJPOCI_00058	CDS	hslV	3.4.25.2	ATP-dependent protease subunit HslV
+BOJJPOCI_00059	CDS	xerC	Tyrosine recombinase XerC
+BOJJPOCI_00060	CDS	trmFO	2.1.1.74	Methylenetetrahydrofolate--tRNA-(uracil-5-)-methyltransferase TrmFO
+BOJJPOCI_00061	CDS	topA	5.99.1.2	DNA topoisomerase 1
+BOJJPOCI_00062	CDS	dprA	DNA processing protein DprA
+BOJJPOCI_00063	CDS	femA	2.3.2.17	Aminoacyltransferase FemA
+BOJJPOCI_00064	CDS	lytN	3.-.-.-	putative cell wall hydrolase LytN
+BOJJPOCI_00065	CDS	sucD	6.2.1.5	Succinate--CoA ligase [ADP-forming] subunit alpha
+BOJJPOCI_00066	CDS	sucC	6.2.1.5	Succinate--CoA ligase [ADP-forming] subunit beta
+BOJJPOCI_00067	CDS	rnhB	3.1.26.4	Ribonuclease HII
+BOJJPOCI_00068	CDS	rbgA	Ribosome biogenesis GTPase A
+BOJJPOCI_00069	CDS	hypothetical protein
+BOJJPOCI_00070	CDS	rplS	50S ribosomal protein L19
+BOJJPOCI_00071	CDS	trmD	2.1.1.228	tRNA (guanine-N(1)-)-methyltransferase
+BOJJPOCI_00072	CDS	rimM	Ribosome maturation factor RimM
+BOJJPOCI_00073	CDS	rpsP	30S ribosomal protein S16
+BOJJPOCI_00074	CDS	ffh	Signal recognition particle protein
+BOJJPOCI_00075	CDS	hypothetical protein
+BOJJPOCI_00076	CDS	ftsY	Signal recognition particle receptor FtsY
+BOJJPOCI_00077	CDS	smc	Chromosome partition protein Smc
+BOJJPOCI_00078	CDS	rnc	3.1.26.3	Ribonuclease 3
+BOJJPOCI_00079	CDS	acpP	Acyl carrier protein
+BOJJPOCI_00080	CDS	fabG	1.1.1.100	3-oxoacyl-[acyl-carrier-protein] reductase FabG
+BOJJPOCI_00081	CDS	fabD	2.3.1.39	Malonyl CoA-acyl carrier protein transacylase
+BOJJPOCI_00082	CDS	plsX	2.3.1.-	Phosphate acyltransferase
+BOJJPOCI_00083	CDS	fapR	Transcription factor FapR
+BOJJPOCI_00084	CDS	recG	3.6.4.12	ATP-dependent DNA helicase RecG
+BOJJPOCI_00085	CDS	hypothetical protein
+BOJJPOCI_00086	CDS	hypothetical protein
+BOJJPOCI_00087	CDS	rpmB	50S ribosomal protein L28
+BOJJPOCI_00088	CDS	thiN	2.7.6.2	Thiamine pyrophosphokinase
+BOJJPOCI_00089	CDS	rpe	5.1.3.1	Ribulose-phosphate 3-epimerase
+BOJJPOCI_00090	CDS	rsgA	3.6.1.-	Small ribosomal subunit biogenesis GTPase RsgA
+BOJJPOCI_00091	CDS	prkC	2.7.11.1	Serine/threonine-protein kinase PrkC
+BOJJPOCI_00092	CDS	stp	3.1.3.16	Serine/threonine phosphatase stp
+BOJJPOCI_00093	CDS	rlmN	2.1.1.192	putative dual-specificity RNA methyltransferase RlmN
+BOJJPOCI_00094	CDS	rsmB	2.1.1.176	Ribosomal RNA small subunit methyltransferase B
+BOJJPOCI_00095	CDS	fmt	2.1.2.9	Methionyl-tRNA formyltransferase
+BOJJPOCI_00096	CDS	def1	3.5.1.88	Peptide deformylase 1
+BOJJPOCI_00097	CDS	hypothetical protein
+BOJJPOCI_00098	CDS	hypothetical protein
+BOJJPOCI_00099	CDS	priA	3.6.4.-	Primosomal protein N'
+BOJJPOCI_00100	CDS	coaBC	Coenzyme A biosynthesis bifunctional protein CoaBC
+BOJJPOCI_00101	CDS	rpoZ	2.7.7.6	DNA-directed RNA polymerase subunit omega
+BOJJPOCI_00102	CDS	gmk	2.7.4.8	Guanylate kinase
+BOJJPOCI_00103	CDS	hypothetical protein
+BOJJPOCI_00104	CDS	hypothetical protein
+BOJJPOCI_00105	CDS	hypothetical protein
+BOJJPOCI_00106	CDS	pyrE	2.4.2.10	Orotate phosphoribosyltransferase
+BOJJPOCI_00107	CDS	pyrF	4.1.1.23	Orotidine 5'-phosphate decarboxylase
+BOJJPOCI_00108	CDS	carB	6.3.5.5	Carbamoyl-phosphate synthase large chain
+BOJJPOCI_00109	CDS	carA	6.3.5.5	Carbamoyl-phosphate synthase small chain
+BOJJPOCI_00110	CDS	pyrC	3.5.2.3	Dihydroorotase
+BOJJPOCI_00111	CDS	pyrB	2.1.3.2	Aspartate carbamoyltransferase
+BOJJPOCI_00112	CDS	pyrP	Uracil permease
+BOJJPOCI_00113	CDS	pyrR	Bifunctional protein PyrR
+BOJJPOCI_00114	CDS	rluD	5.4.99.23	Ribosomal large subunit pseudouridine synthase D
+BOJJPOCI_00115	CDS	lspA	3.4.23.36	Lipoprotein signal peptidase
+BOJJPOCI_00116	CDS	hypothetical protein
+BOJJPOCI_00117	CDS	catE	1.13.11.2	Catechol-2,3-dioxygenase
+BOJJPOCI_00118	CDS	ileS	6.1.1.5	Isoleucine--tRNA ligase
+BOJJPOCI_00119	CDS	divIVA	Septum site-determining protein DivIVA
+BOJJPOCI_00120	CDS	hypothetical protein
+BOJJPOCI_00121	CDS	hypothetical protein
+BOJJPOCI_00122	CDS	hypothetical protein
+BOJJPOCI_00123	CDS	sepF	Cell division protein SepF
+BOJJPOCI_00124	CDS	hypothetical protein
+BOJJPOCI_00125	CDS	yfiH	Laccase domain protein YfiH
+BOJJPOCI_00126	CDS	ftsZ	Cell division protein FtsZ
+BOJJPOCI_00127	CDS	ftsA	Cell division protein FtsA
+BOJJPOCI_00128	CDS	divIB	Cell division protein DivIB
+BOJJPOCI_00129	CDS	murD	6.3.2.9	UDP-N-acetylmuramoylalanine--D-glutamate ligase
+BOJJPOCI_00130	CDS	mraY	2.7.8.13	Phospho-N-acetylmuramoyl-pentapeptide-transferase
+BOJJPOCI_00131	CDS	pbpB	Penicillin-binding protein 2B
+BOJJPOCI_00132	CDS	ftsL	Cell division protein FtsL
+BOJJPOCI_00133	CDS	rsmH	2.1.1.199	Ribosomal RNA small subunit methyltransferase H
+BOJJPOCI_00134	CDS	mraZ	Transcriptional regulator MraZ
+BOJJPOCI_00135	CDS	bshC	6.-.-.-	Putative cysteine ligase BshC
+BOJJPOCI_00136	CDS	2.3.1.-	putative N-acetyltransferase
+BOJJPOCI_00137	CDS	yfnB	3.-.-.-	Putative HAD-hydrolase YfnB
+BOJJPOCI_00138	CDS	Antibacterial protein 3
+BOJJPOCI_00139	CDS	Antibacterial protein 3
+BOJJPOCI_00140	tRNA	tRNA-Arg(tct)
+BOJJPOCI_00141	CDS	hypothetical protein
+BOJJPOCI_00142	CDS	hypothetical protein
+BOJJPOCI_00143	CDS	hypothetical protein
+BOJJPOCI_00144	CDS	hypothetical protein
+BOJJPOCI_00145	CDS	arcC1	2.7.2.2	Carbamate kinase 1
+BOJJPOCI_00146	CDS	argF	2.1.3.3	Ornithine carbamoyltransferase
+BOJJPOCI_00147	CDS	hypothetical protein
+BOJJPOCI_00148	CDS	speH	Exotoxin type H
+BOJJPOCI_00149	CDS	hypothetical protein
+BOJJPOCI_00150	CDS	hypothetical protein
+BOJJPOCI_00151	CDS	hly	Alpha-hemolysin
+BOJJPOCI_00152	CDS	hypothetical protein
+BOJJPOCI_00153	CDS	hypothetical protein
+BOJJPOCI_00154	CDS	scn	Staphylococcal complement inhibitor
+BOJJPOCI_00155	CDS	fib_1	Fibrinogen-binding protein
+BOJJPOCI_00156	CDS	hypothetical protein
+BOJJPOCI_00157	CDS	flr	FPRL1 inhibitory protein
+BOJJPOCI_00158	CDS	fib_2	Fibrinogen-binding protein
+BOJJPOCI_00159	CDS	3.1.4.-	Putative metallophosphoesterase MG207 
+BOJJPOCI_00160	CDS	3.6.1.9	Non-canonical purine NTP pyrophosphatase
+BOJJPOCI_00161	CDS	murI	5.1.1.3	Glutamate racemase
+BOJJPOCI_00162	CDS	frdB	1.3.5.1	Fumarate reductase iron-sulfur subunit
+BOJJPOCI_00163	CDS	frdA	1.3.5.4	Fumarate reductase flavoprotein subunit
+BOJJPOCI_00164	CDS	sdhC	Succinate dehydrogenase cytochrome b558 subunit
+BOJJPOCI_00165	CDS	uvrC	UvrABC system protein C
+BOJJPOCI_00166	CDS	trxA	Thioredoxin
+BOJJPOCI_00167	CDS	mutS2	3.1.-.-	Endonuclease MutS2
+BOJJPOCI_00168	CDS	polX	DNA polymerase/3'-5' exonuclease PolX
+BOJJPOCI_00169	CDS	hypothetical protein
+BOJJPOCI_00170	CDS	zapA	Cell division protein ZapA
+BOJJPOCI_00171	CDS	rnhC	3.1.26.4	Ribonuclease HIII
+BOJJPOCI_00172	CDS	pheT	6.1.1.20	Phenylalanine--tRNA ligase beta subunit
+BOJJPOCI_00173	CDS	pheS	6.1.1.20	Phenylalanine--tRNA ligase alpha subunit
+BOJJPOCI_00174	CDS	2.1.1.-	Putative TrmH family tRNA/rRNA methyltransferase
+BOJJPOCI_00175	CDS	isdG	1.14.99.48	Heme oxygenase (staphylobilin-producing) 1
+BOJJPOCI_00176	CDS	hypothetical protein
+BOJJPOCI_00177	CDS	isdF	putative heme-iron transport system permease protein IsdF
+BOJJPOCI_00178	CDS	isdE	High-affinity heme uptake system protein IsdE
+BOJJPOCI_00179	CDS	hypothetical protein
+BOJJPOCI_00180	CDS	isdC	Iron-regulated surface determinant protein C
+BOJJPOCI_00181	CDS	isdA	Iron-regulated surface determinant protein A
+BOJJPOCI_00182	CDS	isdB	Iron-regulated surface determinant protein B
+BOJJPOCI_00183	CDS	rpmF	50S ribosomal protein L32
+BOJJPOCI_00184	CDS	hypothetical protein
+BOJJPOCI_00185	CDS	hypothetical protein
+BOJJPOCI_00186	CDS	coaD	2.7.7.3	Phosphopantetheine adenylyltransferase
+BOJJPOCI_00187	CDS	rsmD	2.1.1.171	Ribosomal RNA small subunit methyltransferase D
+BOJJPOCI_00188	CDS	hypothetical protein
+BOJJPOCI_00189	CDS	hypothetical protein
+BOJJPOCI_00190	CDS	glpQ1	3.1.4.46	putative glycerophosphodiester phosphodiesterase 1
+BOJJPOCI_00191	CDS	hypothetical protein
+BOJJPOCI_00192	CDS	hypothetical protein
+BOJJPOCI_00193	CDS	hypothetical protein
+BOJJPOCI_00194	CDS	ctaB2	2.5.1.-	Protoheme IX farnesyltransferase 2
+BOJJPOCI_00195	CDS	ctaA	1.3.-.-	Heme A synthase
+BOJJPOCI_00196	CDS	cfiB	6.4.1.7	2-oxoglutarate carboxylase small subunit
+BOJJPOCI_00197	CDS	ftsW	2.4.1.129	putative peptidoglycan glycosyltransferase FtsW
+BOJJPOCI_00198	CDS	hypothetical protein
+BOJJPOCI_00199	CDS	hypothetical protein
+BOJJPOCI_00200	CDS	hypothetical protein
+BOJJPOCI_00201	CDS	typA	GTP-binding protein TypA/BipA
+BOJJPOCI_00202	CDS	hypothetical protein
+BOJJPOCI_00203	CDS	suhB	3.1.3.25	Inositol-1-monophosphatase
+BOJJPOCI_00204	CDS	hypothetical protein
+BOJJPOCI_00205	CDS	mntH	Divalent metal cation transporter MntH
+BOJJPOCI_00206	CDS	hypothetical protein
+BOJJPOCI_00207	CDS	hypothetical protein
+BOJJPOCI_00208	CDS	potD	Spermidine/putrescine-binding periplasmic protein
+BOJJPOCI_00209	CDS	ydcV	Inner membrane ABC transporter permease protein YdcV
+BOJJPOCI_00210	CDS	potB	Spermidine/putrescine transport system permease protein PotB
+BOJJPOCI_00211	CDS	potA	3.6.3.31	Spermidine/putrescine import ATP-binding protein PotA
+BOJJPOCI_00212	CDS	puuR	HTH-type transcriptional regulator PuuR
+BOJJPOCI_00213	CDS	hypothetical protein
+BOJJPOCI_00214	CDS	pdhD	1.8.1.4	Dihydrolipoyl dehydrogenase
+BOJJPOCI_00215	CDS	pdhC	2.3.1.12	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex
+BOJJPOCI_00216	CDS	pdhB	1.2.4.1	Pyruvate dehydrogenase E1 component subunit beta
+BOJJPOCI_00217	CDS	pdhA	1.2.4.1	Pyruvate dehydrogenase E1 component subunit alpha
+BOJJPOCI_00218	CDS	hypothetical protein
+BOJJPOCI_00219	CDS	def	3.5.1.88	Peptide deformylase
+BOJJPOCI_00220	CDS	hypothetical protein
+BOJJPOCI_00221	CDS	rnj1	3.1.-.-	Ribonuclease J 1
+BOJJPOCI_00222	CDS	ktrA	Ktr system potassium uptake protein A
+BOJJPOCI_00223	CDS	ythB	Putative cytochrome bd menaquinol oxidase subunit II
+BOJJPOCI_00224	CDS	ythA	1.10.3.-	Putative cytochrome bd menaquinol oxidase subunit I
+BOJJPOCI_00225	CDS	nrdH	Glutaredoxin-like protein NrdH
