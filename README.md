@@ -6,6 +6,10 @@
 ![Language](https://img.shields.io/badge/language-Bash%20%7C%20R-blue)
 ![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20HPC-orange)
 ![Status](https://img.shields.io/badge/status-stable-brightgreen)
+![Purpose](https://img.shields.io/badge/Purpose-Education_%26_Open_Science-green)
+![Level](https://img.shields.io/badge/Level-Intermediate_%7C_Advanced-orange)
+![Community](https://img.shields.io/badge/Share-Knowledge-blue)
+
 
 ## 📖 Introduction
 
@@ -34,12 +38,6 @@ graph TD
     style F fill:#bbf,stroke:#333,stroke-width:2px
     style I fill:#bfb,stroke:#333,stroke-width:2px
 ```
-
-# 🧬 The Metagenomics Handbook: A Practical Pipeline
-
-![Purpose](https://img.shields.io/badge/Purpose-Education_%26_Open_Science-green)
-![Level](https://img.shields.io/badge/Level-Intermediate_%7C_Advanced-orange)
-![Community](https://img.shields.io/badge/Share-Knowledge-blue)
 
 ## 🌟 Vision
 This project is built **for the community**. Its goal is to demystify **Shotgun Metagenomics** analysis by providing a transparent, reproducible, and easy-to-understand pipeline. Whether you are a student, a researcher, or a hobbyist, this repository serves as a practical guide to recovering bacterial genomes from environmental samples.
