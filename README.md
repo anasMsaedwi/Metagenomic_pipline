@@ -163,7 +163,7 @@ To ensure reproducibility, an `environment.yml` file is provided to recreate the
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/anasMsaedwi/Metagenomic_Pipeline.git
+git@github.com:anasMsaedwi/Metagenomic_pipline.git
 cd Metagenomics-Pipeline
 
 # 2. Create Conda environment
